@@ -8,3 +8,171 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+}
+nav .slackLogo {
+  width: 30%;
+  align-items: flex-start;
+}
+nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+nav ul {
+  display: none;
+}
+nav button {
+  background-color: #540b51;
+  border: none;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head h1 {
+  padding: 20px 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+}
+.head p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.head p span {
+  color: #ecb12f;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 20px 15px;
+}
+.buttons button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.buttons button img {
+  height: 5vh;
+}
+.images {
+  width: 90%;
+  padding: 0;
+  margin: 0;
+}
+.trustedCompanies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3eae2;
+  align-items: center;
+}
+main .trustedCompanies p {
+  padding: 30px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0 50px 0;
+}
+.companieImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1%;
+  max-height: 5vh;
+
+  max-width: 28%;
+  padding: 8px;
+}
+
+.team {
+  padding: 35px 25px;
+}
+.team h2 {
+  padding: 10px 0;
+  font-size: 2rem;
+}
+.team a {
+  text-decoration: none;
+  color: #2e71a6;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.sectionNumber2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+.choose {
+  padding: 35px 25px;
+}
+.chooseImage {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sectionNumber2 img.images {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.imageChoose {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+}
+.sectionNumber2 h2 {
+  padding: 10px 0;
+  font-size: 2rem;
+}
+.sectionNumber2 a {
+  text-decoration: none;
+  color: #2e71a6;
+  font-weight: bold;
+  padding: 50px 0;
+}
